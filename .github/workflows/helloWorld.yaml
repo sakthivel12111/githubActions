@@ -1,10 +1,12 @@
 name: hmmm 
 
-on: [push]
+on: 
+  push:
+    branches: [ developUh ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: heello world action uh
-        run: echo "hello world"
+      - name: heello world action uh my branch uh
+        run: echo "hello world uh developUh"
